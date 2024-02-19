@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -17,6 +17,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
 
+    <!-- fav-icon -->
+    <link rel="shortcut icon" href="./src/assets/favicon/Favicon.ico" type="image/x-icon">
+
     <!-- main style -->
     <link rel="stylesheet" href="./src/styles/main.css">
 
@@ -24,13 +27,18 @@
 </head>
 
 <body>
+    <audio id="bgm" loop>
+        <source src="./src/assets/audios/egyptian_duel.mp3" type="audio/mp3" />
 
-    <div class="bg-video"></div>
-    <video class="video" autoplay loop muted>
+    </audio>
 
-        <source src="./src/assets/video/yugi.mp4" type="video/mp4" />
+    <div class="bg-video">
+        <video class="video" autoplay loop muted>
 
-    </video>
+            <source src="./src/assets/video/yugi.mp4" type="video/mp4" />
+
+        </video>
+    </div>
     <div class="container">
         <div class="container__left framed-golden-2">
             <div class="score_box frame">
